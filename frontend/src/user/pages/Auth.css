@@ -1,0 +1,31 @@
+.authentication__header {
+    color: white;
+    text-align: center;
+  }
+  
+  .authentication {
+    width: 90%;
+    max-width: 30rem;
+    margin: 7rem auto;
+    text-align: center;
+  }
+  
+  .authentication form {
+    padding: 0 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .button{
+    border-radius: 10px;
+  }
+ 
+  #email, #password{
+    border-radius: 5px;
+    padding: 0.3rem 0.5rem;
+  }
+  #email:focus, #password:focus{
+    background: white;
+    color: black;
+    border-color: #3F51B5;
+  }
+
